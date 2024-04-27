@@ -26,7 +26,7 @@ public class NotifyManager : MonoBehaviour
     }
 
     public enum NotifyType {
-        LevelComplete, LevelStart, LevelEnd, LevelSelect, Pause
+        LevelComplete, LevelStart, LevelEnd, LevelSelect, Pause, Guide
     }
 
     [SerializeField] GameObject levelComplete;
